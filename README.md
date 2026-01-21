@@ -12,6 +12,9 @@ cd FGHFN
 conda create -n airs python=3.8
 conda activate airs
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+需要先将pip版本降低到24.1以下：
+pip install pip==24.0 -i https://mirrors.aliyun.com/pypi/simple/
+再安装：
 pip install -r GeoSeg/requirements.txt
 pip install pytorch_wavelets
 ```
