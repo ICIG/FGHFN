@@ -1,5 +1,5 @@
 # FGHFN
-
+Fu jiahao
 This is the code for our paper: FGHFN: High-Resolution Fusion Network with Frequency-Domain Guidance for Remote Sensing Semantic Segmentation
 
 ## Install
