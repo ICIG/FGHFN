@@ -20,7 +20,7 @@ pip install pytorch_wavelets
 
 ## Data Preprocessing
 
-Download the datasets from the official website and split them yourself.
+(Due to copyright reasons) Download the datasets from the official website and split them yourself.
 
   - [ISPRS Vaihingen and Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) 
   - [LoveDA](https://codalab.lisn.upsaclay.fr/competitions/421)
