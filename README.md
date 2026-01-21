@@ -5,9 +5,6 @@ This is the code for our paper: FGHFN: High-Resolution Fusion Network with Frequ
 
 ## Install
 
-```shell
-cd FGHFN
-```
 
 ```shell
 conda create -n airs python=3.8
@@ -74,7 +71,9 @@ FGHFN
 **Vaihingen**
 
 Only the TOP image tiles were used without the DSM and NDSM. And we utilized ID: 2, 4, 6, 8, 10, 12, 14, 16, 20, 22, 24, 27, 29, 31, 33, 35, 38 for testing, ID: 30 for validation, and the remaining 15 images for training.
-
+```shell
+cd FGHFN
+```
 ```
 python GeoSeg/tools/vaihingen_patch_split.py \
 --img-dir "data/vaihingen/train_images" \
@@ -115,7 +114,9 @@ As for the validation set, you can select some images from the training set to b
 **Potsdam**
 
 We utilized ID: 2_13, 2_14,3_13, 3_14, 4_13, 4_14, 4_15, 5_13, 5_14, 5_15, 6_13, 6_14, 6_15, 7_13 for testing, ID: 2_10 for validation, and the remaining 22 images (except image 7_10 with error annotations) for training.
-
+```shell
+cd FGHFN
+```
 ```shell
 python GeoSeg/tools/potsdam_patch_split.py \
 --img-dir "data/potsdam/train_images" \
@@ -146,7 +147,9 @@ python GeoSeg/tools/potsdam_patch_split.py \
 ```
 
 **LoveDA**
-
+```shell
+cd FGHFN
+```
 ```shell
 python GeoSeg/tools/loveda_mask_convert.py --mask-dir data/loveDA/Train/Rural/masks_png --output-mask-dir data/loveDA/Train/Rural/masks_png_convert
 python GeoSeg/tools/loveda_mask_convert.py --mask-dir data/loveDA/Train/Urban/masks_png --output-mask-dir data/loveDA/Train/Urban/masks_png_convert
@@ -157,7 +160,9 @@ python GeoSeg/tools/loveda_mask_convert.py --mask-dir data/loveDA/Val/Urban/mask
 ## Training
 
 "-c" means the path of the config, use different **config** to train different models.
-
+```shell
+cd FGHFN
+```
 ```shell
 python GeoSeg/train_supervision.py -c GeoSeg/config/potsdam/FGHFN_potsdam.py 
 ```
@@ -188,7 +193,9 @@ FGHFN
 ├── ....
 
 ```
-
+```shell
+cd FGHFN
+```
 
 **Potsdam**
 
