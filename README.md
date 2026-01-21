@@ -25,6 +25,7 @@ pip install pytorch_wavelets
 
   - [ISPRS Vaihingen and Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) 
   - [LoveDA](https://codalab.lisn.upsaclay.fr/competitions/421)
+  - 整理好的数据结构：(https://pan.quark.cn/s/dfc8a564bf84)
 
 Prepare the following folders to organize this repo:
 
