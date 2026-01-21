@@ -168,7 +168,7 @@ python GeoSeg/train_supervision_dp.py -c GeoSeg/config/loveda/FGHFN_loveda.py
 
 ## Testing
 
-我们的训练权重在夸克网盘可下载：
+我们的训练权重在夸克网盘可下载：https://pan.quark.cn/s/5999a4fe4dd3
 
 Prepare the weights folder to organize this repo:
 
